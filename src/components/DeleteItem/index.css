@@ -1,0 +1,67 @@
+.list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+
+  margin-bottom: 26px;
+  width: 100%;
+  border-radius: 5px;
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title-domain-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.time {
+  font-size: 18px;
+  font-weight: 500;
+  color: #475569;
+  font-family: 'Roboto';
+}
+
+.logos {
+  height: 20px;
+  width: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.title-style {
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.domain-name {
+  margin-left: 10px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
